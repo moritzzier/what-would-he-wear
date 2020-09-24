@@ -21,7 +21,9 @@
 	"homepage": "https://github.com/moritzzier/what-would-he-wear#readme",
 	"dependencies": {
 		"express": "^4.17.1",
+		"got": "^11.7.0",
 		"gulp": "^4.0.2",
+		"pg": "^8.3.3",
 		"typeorm": "^0.2.26"
 	},
 	"devDependencies": {
