@@ -1,0 +1,37 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+	margin: 0;
+    --shape-radius: 16px;
+}
+
+html,
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+body {
+	background-color: aquamarine;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+.root {
+	background-color: white;
+    border-radius: var(--shape-radius);
+    box-shadow: 0px 2px 10px -6px black;
+    display: grid;
+    gap: 16px;
+    padding: 32px;
+}
+
+.button {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
