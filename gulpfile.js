@@ -1,4 +1,3 @@
-const GulpClient = require('gulp');
 const gulp = require('gulp');
 const ts = require('gulp-typescript');
 const gulpClean = require('gulp-clean');
