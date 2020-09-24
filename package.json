@@ -1,0 +1,28 @@
+{
+	"name": "what-would-he-wear",
+	"version": "1.0.0",
+	"description": "The question of questions",
+	"main": "index.js",
+	"scripts": {
+    "start": "node ./dist/index.js",
+		"build": "./node_modules/.bin/tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/moritzzier/what-would-he-wear.git"
+	},
+	"author": "Moritz Zier",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/moritzzier/what-would-he-wear/issues"
+	},
+	"homepage": "https://github.com/moritzzier/what-would-he-wear#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3",
+		"@types/express": "^4.17.8"
+	}
+}
