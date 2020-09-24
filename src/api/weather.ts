@@ -21,7 +21,7 @@ weather.get('/', async (req, res) => {
             /*
              *  query current weather data from api.openweathermap.org
              */
-			return got(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.WEATHER_API_KEY}`).then(result => {
+			return got(`http://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=minutely,hourly&units=metric&appid=${process.env.WEATHER_API_KEY}`).then(result => {
                 return res.send(result.body)
             }).catch(err => {
                 console.log(err);
