@@ -1,20 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>what-would-he-wear</title>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css" >
-</head>
-<body>
-    <div class="root">
-        <h6>What would he wear?</h6>
-        <div>
-
-        </div>
-        <button class="button">Show me!</button>
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Was würde er tragen?</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="main.js"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="root">
+			<h6>Was würde Weidner tragen?</h6>
+			<div class="container">
+				<svg width="210" height="370" xmlns="http://www.w3.org/2000/svg">
+					<g>
+						<title>background</title>
+						<rect
+							fill="#fff"
+							id="canvas_background"
+							height="372"
+							width="212"
+							y="-1"
+							x="-1"
+						/>
+						<g
+							display="none"
+							overflow="visible"
+							y="0"
+							x="0"
+							height="100%"
+							width="100%"
+							id="canvasGrid"
+						>
+							<rect
+								fill="url(#gridpattern)"
+								stroke-width="0"
+								y="0"
+								x="0"
+								height="100%"
+								width="100%"
+							/>
+						</g>
+					</g>
+					<g>
+						<title>Layer 1</title>
+						<rect
+							stroke="#000"
+							transform="rotate(-21 146.64767456054688,126.04802703857425) "
+							id="svg_8"
+							height="95.98591"
+							width="20"
+							y="78.05508"
+							x="137.64768"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							fill="#fff"
+						/>
+						<rect
+							stroke="#000"
+							transform="rotate(18 55.46558380126938,128.79209899902347) "
+							id="svg_7"
+							height="103.63916"
+							width="26"
+							y="76.97252"
+							x="42.46558"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							fill="#fff"
+						/>
+						<rect
+							stroke="#000"
+							id="svg_9"
+							height="112"
+							width="16"
+							y="212.45313"
+							x="73.5"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							fill="#fff"
+						/>
+						<rect
+							stroke="#000"
+							id="svg_10"
+							height="112"
+							width="17"
+							y="211.45313"
+							x="112.5"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							fill="#fff"
+						/>
+						<rect
+							stroke="#000"
+							transform="rotate(18 61.86122131347662,109.10834503173828) "
+							id="arm_right"
+							height="62.24573"
+							width="26"
+							y="77.98549"
+							x="48.86122"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							fill="#880000"
+						/>
+						<rect
+							stroke="#000"
+							transform="rotate(-21 140.2672119140625,108.42635345458989) "
+							id="arm_left"
+							height="60.37744"
+							width="26"
+							y="78.23763"
+							x="127.26722"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							fill="#880000"
+						/>
+						<rect
+							stroke="#000"
+							id="leg_right"
+							height="47"
+							width="34"
+							y="215.45313"
+							x="62.5"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							fill="#f9d5a6"
+						/>
+						<rect
+							stroke="#000"
+							id="leg_left"
+							height="46"
+							width="34"
+							y="215.45313"
+							x="104.5"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							fill="#f9d5a6"
+						/>
+						<rect
+							stroke="#000"
+							id="svg_1"
+							height="149"
+							width="81"
+							y="74.45313"
+							x="60.5"
+							stroke-width="1.5"
+							fill="#880000"
+						/>
+						<ellipse
+							ry="38"
+							rx="38"
+							id="svg_2"
+							cy="54.45313"
+							cx="102.5"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							stroke="#000"
+							fill="#fff"
+						/>
+						<ellipse
+							ry="4.5"
+							rx="3.5"
+							id="svg_4"
+							cy="39.95313"
+							cx="86"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							stroke="#000"
+							fill="#fff"
+						/>
+						<ellipse
+							ry="4.5"
+							rx="3.5"
+							id="svg_5"
+							cy="39.95313"
+							cx="117"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							stroke="#000"
+							fill="#fff"
+						/>
+						<path
+							id="svg_6"
+							d="m86.5,69.45313l17.5,5.54687c6,-2.66667 12,-5.33333 18,-8"
+							fill-opacity="null"
+							stroke-opacity="null"
+							stroke-width="1.5"
+							stroke="#000"
+							fill="#fff"
+						/>
+					</g>
+				</svg>
+			</div>
+			<button class="button" onclick="showMe()">Show me!</button>
+		</div>
+	</body>
 </html>

@@ -30,8 +30,23 @@ h6 {
     padding: 32px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .button {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
+    border: none;
+    height: 32px;
+    border-radius: var(--shape-radius);
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.button:hover {
+    background-color: aquamarine;
 }
