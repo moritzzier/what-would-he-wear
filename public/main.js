@@ -9,7 +9,7 @@ async function showMe() {
 
 function calculatePercent(weather) {
 	if (weather.daily[0].temp.min && weather.daily[0].temp.min) {
-		const max = weather.daily[0].temp.min;
+		const max = weather.daily[0].temp.max;
 		const min = weather.daily[0].temp.min;
 
 		/*
