@@ -21,13 +21,12 @@ function calculatePercent(weather) {
 			}
 			return 20;
 		} else {
-			if (min <= 10) {
-				if (min <= 0) {
+			if (max <= 19) {
+				if (max <= 15) {
 					return 100;
 				}
 				return 80;
 			}
-			return 50;
 		}
 	}
 }
